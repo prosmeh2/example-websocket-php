@@ -1,6 +1,6 @@
 function addserverphp(){
 	const xhr = new XMLHttpRequest();
-	xhr.open("GET", "/serverphp/serverstart.php");
+	xhr.open("GET", "serverstart.php");
 	xhr.send();	
 }
 addserverphp();
